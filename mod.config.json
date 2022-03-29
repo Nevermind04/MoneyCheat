@@ -1,0 +1,14 @@
+{
+    "name": "MoneyCheat",
+    "author": "Nevermind",
+    "description": "Free money from Therapist",
+    "license": "MIT",
+    "version": "1.0.0",
+    "src": {
+        "src/cache.js": "CacheModLoad"
+    },
+    "folders": [
+    ],
+    "filenames": [
+    ]
+}
