@@ -3,7 +3,7 @@
     "author": "Nevermind",
     "description": "Free money from Therapist",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "src": {
         "src/cache.js": "CacheModLoad"
     },
