@@ -84,7 +84,7 @@ exports.mod = (mod_data) => {
 
     // Add the cheat coin to items
     let file_Items = fileIO.readParsed(serverDir(path_Items)); // Read cached items file
-    let obj_CheatCoin = file_Items.data["5d235b4d86f7742e017bc88a"]; // Use GP coin as a prototype
+    let obj_CheatCoin = utility.wipeDepend(file_Items.data["5d235b4d86f7742e017bc88a"]); // Use GP coin as a prototype
     obj_CheatCoin._id = var_CheatCoinID;
     obj_CheatCoin._name = var_CheatCoinID;
     obj_CheatCoin._props.Name = var_CheatCoinID;
